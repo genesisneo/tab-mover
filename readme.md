@@ -1,6 +1,14 @@
 # Tab Mover
 
-Chromium based browser extension to move tabs with keyboard shortcuts.
+Chromium-based browser extension to move tabs with keyboard shortcuts.
+
+---
+
+
+## Download
+
+You can download the application on the release page.<br />
+https://github.com/genesisneo/tab-mover/releases
 
 ---
 
