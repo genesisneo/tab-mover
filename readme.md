@@ -6,12 +6,12 @@ Chromium based browser extension to move tabs with keyboard shortcuts.
 
 ## Commands
 
-| Action            | Windows                | macOs                     |
-| :---------------- | :--------------------- | ------------------------- |
-| Move Tab to End   | `Ctrl`+`Shift`+`Down`  | `Command`+`Shift`+`Down`  |
-| Move Tab to Left  | `Ctrl`+`Shift`+`Left`  | `Command`+`Shift`+`Left`  |
-| Move Tab to Right | `Ctrl`+`Shift`+`Right` | `Command`+`Shift`+`Right` |
-| Move Tab to Start | `Ctrl`+`Shift`+`Up`    | `Command`+`Shift`+`Up`    |
+| Action            | Windows                   | macOs                     |
+| :---------------- | ------------------------- | ------------------------- |
+| Move Tab to End   | `Control`+`Shift`+`Down`  | `Control`+`Shift`+`Down`  |
+| Move Tab to Left  | `Control`+`Shift`+`Left`  | `Control`+`Shift`+`Left`  |
+| Move Tab to Right | `Control`+`Shift`+`Right` | `Control`+`Shift`+`Right` |
+| Move Tab to Start | `Control`+`Shift`+`Up`    | `Control`+`Shift`+`Up`    |
 
 ---
 
@@ -21,8 +21,8 @@ Chromium based browser extension to move tabs with keyboard shortcuts.
 <tr>
 <td>
 
-| Browser        | Status | Notes      |
-| :------------- | ------ | ---------- |
+| Browser        | Status | Notes     |
+| :------------- | ------ | --------  |
 | Google Chrome  | ✅     | Works fine |
 | Microsoft Edge | ✅     | Works fine |
 | Opera          | ✅     | works fine |

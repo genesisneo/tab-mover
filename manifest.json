@@ -1,41 +1,44 @@
 {
   "name": "Tab Mover",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "author": "Neo Genesis",
-  "version": "1.0.0",
-  "description": "Chromium based browser extension to move tabs with keyboard shortcuts.",
+  "version": "1.1.0",
+  "description": "Move tabs with keyboard shortcuts.",
   "permissions": ["tabs"],
+  "action": {
+    "default_icon": "icon-128.png",
+    "default_title": "Move tabs with keyboard shortcuts."
+  },
   "background": {
-    "persistent": false,
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "commands": {
     "move-tab-end": {
       "description": "Move Tab to End",
       "suggested_key": {
         "default": "Ctrl+Shift+Down",
-        "mac": "Command+Shift+Down"
+        "mac": "MacCtrl+Shift+Down"
       }
     },
     "move-tab-left": {
       "description": "Move Tab to Left",
       "suggested_key": {
         "default": "Ctrl+Shift+Left",
-        "mac": "Command+Shift+Left"
+        "mac": "MacCtrl+Shift+Left"
       }
     },
     "move-tab-right": {
       "description": "Move Tab to Right",
       "suggested_key": {
         "default": "Ctrl+Shift+Right",
-        "mac": "Command+Shift+Right"
+        "mac": "MacCtrl+Shift+Right"
       }
     },
     "move-tab-start": {
       "description": "Move Tab to Start",
       "suggested_key": {
         "default": "Ctrl+Shift+Up",
-        "mac": "Command+Shift+Up"
+        "mac": "MacCtrl+Shift+Up"
       }
     }
   },
